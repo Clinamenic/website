@@ -30,9 +30,11 @@ export default ((opts?: ArticleTitleOptions) => {
   ArticleTitle.css = `
   .article-title {
     padding: 0rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
   }
-  `
+`
 
   return ArticleTitle
 }) satisfies QuartzComponentConstructor
